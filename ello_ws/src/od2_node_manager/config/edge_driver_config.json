@@ -1,0 +1,16 @@
+{
+  "max_speed": 0.5,
+  "max_yaw_speed": 0.8,
+  "dist_tol": 0.05,
+  "yaw_tol": 0.05,
+  "kp_yaw": 3.0,
+  "kd_yaw": 2.9,
+  "kp_line": 2.0,
+  "kd_line": 0.5,
+  "kp_heading": 1.5,
+  "kd_heading": 0.4,
+  "accel": 0.3,
+  "yaw_accel": 2.8,
+  "lateral_limit": 0.2
+}
+

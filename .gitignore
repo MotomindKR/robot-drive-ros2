@@ -1,0 +1,27 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+ros2_startup_logs/
+ello_ws/build/
+ello_ws/install/
+ello_ws/log/
+ello_ws/src/od2_navigation/maps/
+
+# Python cache and test artifacts
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Packaging/build leftovers
+**/*.egg-info/
+**/.eggs/
+**/dist/
+**/build/
+
+# OS/editor files
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/

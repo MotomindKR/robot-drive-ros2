@@ -1,0 +1,15 @@
+collision_monitor:
+  ros__parameters:
+    frame_id: "base_link"         # The frame of reference for the robot
+    self_collider: false          # Whether to consider collisions with itself
+    topics: ["scan"]              # List of topics to monitor (e.g., LIDAR scan topic)
+    max_lookahead_distance: 1.0   # Maximum distance to look ahead for collisions
+    min_collision_proximity: 0.2  # Minimum distance to obstacle considered a collision
+    safety_distance: 0.5          # Safety distance to maintain from obstacles
+    collision_action: "stop"      # Action to take on collision (e.g., "stop", "slow_down")
+    scan:
+      type: "laser"               # Type of sensor
+      topic: "/scan"              # Topic name of the LIDAR
+      field_of_view: 1.57         # Field of view in radians (example for 90 degrees)
+      min_range: 0.1              # Minimum range of the sensor
+      max_range: 10.0             # Maximum range of the sensor

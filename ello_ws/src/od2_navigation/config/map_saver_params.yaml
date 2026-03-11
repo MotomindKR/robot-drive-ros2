@@ -1,0 +1,6 @@
+map_saver:
+  ros__parameters:
+    use_sim_time: false
+    save_map_timeout: 50000.0  # Change to a double by including a decimal point
+    free_thresh_default: 0.25
+    occupied_thresh_default: 0.65
