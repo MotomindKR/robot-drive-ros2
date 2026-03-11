@@ -1,6 +1,6 @@
 # Motomind Ello Public ROS2 Package
 ## Introduction
-Ello is the platform of Motomind's autonomous driving robot. Via ROS2, we provide navigation system which includes node/edge manager. Also the platform includes refined data loggin that can be used in a variety of applications.
+Ello is the platform of Motomind's autonomous driving robot. Via ROS2, we provide navigation system which includes node/edge manager. Also the platform includes refined data logging that can be used in a variety of applications.
 
 ## Release Notes
 (WIP)
